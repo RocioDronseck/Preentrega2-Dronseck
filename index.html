@@ -1,101 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logistica Emanuel Lara</title>
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="Estilo.css">
-</head>
-
-<body>
-    <header>
-        <img src="Logo.png" alt="Logistica Emanuel Lara">
-        <nav>
-            <ul id="menuHorizontal">
-                <li> <a href="Consulta.html">Consulta</a> </li>
-                <li> <a href="NuestraHistoria.html">Nuestra Historia</a> </li>
-                <li><a href="Destinos.html">Destinos</a> </li>
-                <li><a href="Servicios.html">Servicios</a> </li>
-                <li><a href="Index.html">Inicio</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <br>
-            <h1>Logística Emanuel Lara</h1>
-            <img class="imagenPcpal"
-                src="https://us.123rf.com/450wm/carloscastilla/carloscastilla1601/carloscastilla160100044/50030412-resumen-de-antecedentes-camiones-y-transport-highway-y-entrega-.jpg?ver=6"
-                alt="Logistica Emanuel Lara">
-        </section>
-        <section>
-            <div>
-                <h2>Archivo de Documentos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequuntur dolores vero nobis id
-                    commodi iste facilis dolorum quam accusantium praesentium, laborum ipsum, illo incidunt vitae
-                    suscipit libero fugit veniam.</p>
-                <a href="Servicios.html">Leer mas</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Logística Emanuel Lara</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="Estilo.css">
+        <script src="https://kit.fontawesome.com/7f6e5d624a.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <header>
+    
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img class="roll-in-left" src="Logo.png" alt="Logistica Emanuel Lara"></a>
+                    <button id="iconoMenu" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav" id="menuHorizontal">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="NuestraHistoria.html">Nuestra Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Destinos.html">Destinos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Consulta.html">Consulta</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    
+        </header>
+        <main>
+            <section>
+                <br>
+                <h1 class="scale-in-hor-center">Logística Emanuel Lara</h1>
+                <img class="imagenPcpal"
+                    src="https://us.123rf.com/450wm/carloscastilla/carloscastilla1601/carloscastilla160100044/50030412-resumen-de-antecedentes-camiones-y-transport-highway-y-entrega-.jpg?ver=6"
+                    alt="Logistica Emanuel Lara">
+            </section>
+            <section id="servicios">
+                <div class="slide-top">
+                    <h2>Archivo de Documentos</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequuntur dolores vero nobis id
+                        commodi iste facilis dolorum quam accusantium praesentium, laborum ipsum, illo incidunt vitae
+                        suscipit libero fugit veniam.</p>
+                    <a href="Servicios.html">Leer mas</a>
+                </div>
+                <div class="slide-top">
+                    <h2>Logística de Insumos</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis maiores autem quia ea, laborum
+                        ab fuga est quibusdam consequatur quaerat iste numquam? Accusamus soluta alias animi architecto
+                        consectetur, corporis amet.</p>
+                    <a href="Servicios.html">Leer mas</a>
+                </div>
+                <div class="slide-top">
+                    <h2>Guarda de Muebles</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium autem molestias consequatur
+                        labore eos laboriosam debitis cumque cum reiciendis, maiores quasi libero minima? In ipsam dicta
+                        velit necessitatibus neque dolor.</p>
+                    <a href="Servicios.html">Leer mas</a>
+                </div>
+                <div class="slide-top">
+                    <h2>Almacen de Mercadería</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores natus cupiditate esse nulla,
+                        incidunt maiores dolore minus eligendi, molestias vitae, id voluptate iste quibusdam dignissimos.
+                        Rerum quidem vitae tenetur eaque!</p>
+                    <a href="Servicios.html">Leer mas</a>
+                </div>
+            </section>
+            <section>
+                <h2>Galería</h2>
+                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://cdn.pixabay.com/photo/2014/08/02/11/40/high-bay-408222__340.jpg"
+                                class="d-block w-100" alt="Galeria">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn.pixabay.com/photo/2019/08/15/17/56/production-4408573__340.jpg"
+                                class="d-block w-100" alt="Galeria">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn.pixabay.com/photo/2016/09/01/15/18/industrial-1636390__340.jpg"
+                                class="d-block w-100" alt="Galeria">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+    
+    
+    
+    
+            </section>
+        </main>
+    
+        <footer class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img class="roll-in-left" src="Logo.png" alt="Logistica Emanuel Lara">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>DIRECCIÓN</h2>
+                    <p>Av. Cerri 1269. Parque Industrial. Bahia Blanca, Buenos Aires.</p>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+    
+                    </div>
+                </div>
             </div>
-            <div>
-                <h2>Logística de Insumos</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis maiores autem quia ea, laborum
-                    ab fuga est quibusdam consequatur quaerat iste numquam? Accusamus soluta alias animi architecto
-                    consectetur, corporis amet.</p>
-                <a href="Servicios.html">Leer mas</a>
+            <div class="grupo-2">
+                <small>&copy; 2022 <b>Logística Emanuel Lara</b> - Todos los Derechos Reservados.</small>
             </div>
-            <div>
-                <h2>Guarda de Muebles</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium autem molestias consequatur
-                    labore eos laboriosam debitis cumque cum reiciendis, maiores quasi libero minima? In ipsam dicta
-                    velit necessitatibus neque dolor.</p>
-                <a href="Servicios.html">Leer mas</a>
-            </div>
-            <div>
-                <h2>Almacen de Mercadería</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores natus cupiditate esse nulla,
-                    incidunt maiores dolore minus eligendi, molestias vitae, id voluptate iste quibusdam dignissimos.
-                    Rerum quidem vitae tenetur eaque!</p>
-                <a href="Servicios.html">Leer mas</a>
-            </div>
-        </section>
-        <section>
-            <h2>Galería</h2>
-            <img class="tamañoImg"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Q2rtNofiG8yONNE9e-AvjQyUfYH8JAG93w&usqp=CAU"
-                alt="Galeria">
-            <img class="tamañoImg"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP5fxCD8vEOwtVBarWPCVNUQ4vDTTDIhKipA&usqp=CAU"
-                alt="Galeria">
-            <img class="tamañoImg"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIczLmZagXIM7AB1R5cT4qdFu8URXnQiHehA&usqp=CAU"
-                alt="Galeria">
-        </section>
-    </main>
-    <footer>
-        <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25613.png">
-            <label>DIRECCIÓN
-                Av.Cerri Parque Industrial
-                Bahia Blanca, Bs. As. </label>
-        </div>
-        <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384023.png">
-            <label>TELÉFONO
-                291-5741195
-            </label>
-        </div>
-        <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25236.png">
-            <label>EMAIL
-                logistica.emalara@gmail.com
-            </label>
-        </div>
-
-
-    </footer>
-</body>
-
-</html>
+        </footer>
+    
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+    </body>
+    
+    </html>
